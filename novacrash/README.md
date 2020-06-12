@@ -1,0 +1,1 @@
+### novacrash virus shellcode generated using assembly and cpp

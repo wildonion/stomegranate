@@ -1,0 +1,559 @@
+TODO  : an algo to prevent the double clienting issue ; kick all except wildonion! ; on top of websocket and socket
+TODO  : cloud server using serverless concepts (faas/paas/baas/saas) also solve load balancing and clustering issues using graph computation algos (kubeless.io , ballerina.io , graphql & openwhisk)
+TODO  : use all graph(networkx lib) and neural networks algos to build a new protocol for login algorithm for TearMode(WO DIMENSION)
+TODO  : use the docker files and nginx for building and publishing the whole cli server (Angel deploy)
+TODO  : you have the craqt client app on your local system <----Stomegranate SecureSocketServer Cli on TearMode(WO DIMENSION)----> uploaded another lite version aot file of stomegranate crangel cloud server on wodrone raspi os or any of your iot stuff os
+TODO  : a lib to response all wodrone(unixerr.com/blog ideas) requests from craqt client app on TearMode(WO DIMENSION)
+TODO  : create doc using dartdoc and also build the server to TERMINATE THE ERMA SHIELD (removing sweethewobox drivers from the vps for building the executable or PE files from the whole server; this will happen usually by running the make build && make clean commands in vps)
+TODO  : config dns and ngrok on pishro/arvan cloud vps also install fuchisa os in there to run stomegranate crangel cloud server and dart live streaming for iot stuff (LAUNCHING THE ERMA SHIELD)
+TODO  : build a reverse proxy(stomegranate crangel cloud server <----reverse-proxy-(127.0.0.1:3000)----> craqt and other stomegranate apps ... indirectly) and woggy bot here in this server! or you can use the nginx
+TODO  : build the crangel protocol (craqt cli integration with this server; must parse the TearMode(WO DIMENSION) requests from craqt app to run and handle the commands in here)
+TODO  : the email , password generation time and its algo for craqt login process is hardcoded here in this server when you LAUNCHING THE ERMA SHIELD (installing sweethewobox drivers to run the server; this will happen usually by running the make run command in vps) on pishro/arvan cloud vps or raspi server
+TODO  : you can switch between password generation algos or change the email and password generation time for craqt login process by running their related commands on craqt app TearMode (WO DIMENSION) 
+TODO  : the password generation algo for craqt login process is done by some AI based pswd gen algo (uniXerr blog posts idea) or by solving some cool math problems 
+TODO  : for integration with this server in TearMode(WO DIMENSION) from craqt app some random question will generate each time that a login request was catched here in this server
+TODO  : the login algorithm for TearMode(WO DIMENSION) which is called RQA (random question algo) is done through the ERMA BLOOD CHANNEL ROUTE which is an unsupervised deep learning based algo to find the pattern of the wildonion characteristics' behaviors which enable it to make predictions for new behaviors
+TODO  : control your backdoor protocol which is on top of AI and its feature in this server like controlling instaHackingBot , RDP issues and some attacking viruses like spreadness of novacrash project 
+TODO  : you can manage (CRUD) all of your AI/ML toolkits in djangappel shop on craqt app only on TearMode(WO DIMENSION)
+HELP  : https://www.youtube.com/watch?v=r3Ju2GSislE&list=PLJbE2Yu2zumDCyP9jIMf7wXenYFCaDvpk
+HELP  : https://www.youtube.com/watch?v=-QRQIKtPTlI&list=PLJbE2Yu2zumBD6UaOi8bXY9J9fxAodX6E
+HELP  : https://www.youtube.com/watch?v=fmPmrJGbb6w&list=PLlxmoA0rQ-Lw6tAs2fGFuXGP13-dWdKsB
+HELP  : https://www.youtube.com/watch?v=5rtujDjt50I&list=PLlxmoA0rQ-LyHW9voBdNo4gEEIh0SjG-q
+HELP  : https://www.youtube.com/watch?v=8F2uemqLwvE&list=PLJbE2Yu2zumDjfrfu8kisK9lQVcpMDDzZ
+HELP  : https://www.youtube.com/watch?v=kN7X_gWcuv0&list=PLJbE2Yu2zumC4_aB75G2lQ-tAZlqIOGVx
+HELP  : https://codeburst.io/quick-tip-how-to-make-http-requests-in-dart-53fc407daf31
+HELP  : https://dart.dev/tutorials/server/httpserver
+HELP  : https://thosakwe.com/developing-restful-apis-with-angel/
+HELP  : https://thosakwe.com/deploying-dart-apps-to-linux/
+HELP  : https://thosakwe.com/aot-compilation-and-other-dart-hackery/
+HELP  : https://dart.dev/tutorials/server/cmdline
+HELP  : https://mrale.ph/dartvm/
+
+
+______________________________________________________
+	              LOW LEVEL REFERENCES
+______________________________________________________
+
+	REVERSE ENGINEERING LEGACY ::::: https://drive.google.com/drive/folders/11Kjy9lCeFt31OcMi2v0W5xqgtldJG2a-
+
+https://realpython.com/python-memory-management/
+https://realpython.com/pointers-in-python/
+https://www.youtube.com/watch?v=LCslqgM48D4
+https://www.youtube.com/watch?v=dCCcDj8YtDI
+https://www.tutorialspoint.com/digital_communication/digital_communication_information_theory.htm
+https://www.youtube.com/watch?v=_8-ht2AKyH4&list=RDCMUClEEsT7DkdVO_fkrBw0OTrA&start_radio=1&t=741
+https://www.youtube.com/watch?v=eF9qWbuQLuw
+https://www.youtube.com/watch?v=Mv2XQgpbTNE
+https://opensource.com/article/18/4/introduction-python-bytecode
+https://stackoverflow.com/questions/15432499/python-how-to-get-the-source-from-a-code-object
+https://leanpub.com/insidethepythonvirtualmachine/read
+http://www.aosabook.org/en/500L/a-python-interpreter-written-in-python.html
+https://www.youtube.com/watch?v=54bo1qaHAfk
+https://www.youtube.com/watch?v=iUarU8Fhvug
+https://www.youtube.com/watch?v=fDKfdyDWdE4
+https://youtube.com/watch?v=OsGnMm59wb4
+https://www.youtube.com/watch?v=wgHIkdUQbp0&list=PLRAdsfhKI4OWNOSfS7EUu5GRAVmze1t2y
+https://realpython.com/build-python-c-extension-module/
+https://wyag.thb.lt/
+https://blog.usejournal.com/writing-your-own-programming-language-and-compiler-with-python-a468970ae6df
+https://www.youtube.com/watch?v=iUarU8Fhvug
+https://www.youtube.com/watch?v=84uM8TIoqcI
+https://www.youtube.com/watch?v=eC3MGJIn3Us
+https://www.i-programmer.info/programming/cc/13240-applying-c-assembler.html
+https://www.youtube.com/channel/UCTdw38Cw6jcm0atBPA39a0Q/videos
+http://www.insecure.in/virus.asp
+http://docs.myhdl.org/en/stable/manual/intro.html
+https://www.i-programmer.info/programming/hardware/4626-getting-started-with-digital-logic-logic-gates.html
+https://www.quora.com/What-are-network-byte-order-and-host-byte-order-in-computer-networking
+https://www.youtube.com/watch?v=m0aOZuMhhhE
+https://www.fileformat.info/mirror/egff/ch06_04.htm
+https://www.youtube.com/watch?v=3iCifD8gZ0Q
+https://www.swarthmore.edu/NatSci/echeeve1/Ref/BinaryMath/NumSys.html
+https://www.youtube.com/watch?v=LnzuMJLZRdU
+https://github.com/lispyclouds/medusa
+https://www.youtube.com/watch?v=yOyaJXpAYZQ
+https://stackoverflow.com/questions/3434202/what-is-the-difference-between-native-code-machine-code-and-assembly-code/3434252
+https://stackoverflow.com/questions/26823678/linux-64-bit-shellcode
+https://www.nekosecurity.com/x86-64-shellcoding/part-2-shellcode-creation
+https://www.nekosecurity.com/x86-64-shellcoding/part-1-introduction-to-x86_64-shellcoding
+https://medium.com/@buff3r/basic-buffer-overflow-on-64-bit-architecture-3fb74bab3558
+https://zerosum0x0.blogspot.com/2014/12/detect-x86-or-x64-assembly-stub.html
+https://linux-audit.com/elf-binaries-on-linux-understanding-and-analysis/
+https://thosakwe.com/aot-compilation-and-other-dart-hackery/
+https://qmlbook.github.io
+https://www.codementor.io/codementorteam/a-comprehensive-guide-to-implementation-of-singly-linked-list-using-c_plus_plus-ondlm5azr
+https://www.cs.swarthmore.edu/~newhall/unixhelp/compilecycle.html
+https://www.math.colostate.edu/~yzhou/computer/writemakefile.html
+http://www.cplusplus.com/doc/tutorial/preprocessor/
+https://www.cs.swarthmore.edu/~newhall/unixhelp/howto_makefiles.html
+http://www.cs.colby.edu/maxwell/courses/tutorials/maketutor/
+https://opensource.com/article/18/8/what-how-makefile
+https://medium.com/@xpl/protecting-python-sources-using-cython-dcd940bb188e
+http://okigiveup.net/an-introduction-to-cython/
+https://www.youtube.com/watch?v=2PVRX1ug_fk
+https://www.youtube.com/watch?v=8pdQFUOlHLQ
+https://www.youtube.com/watch?v=kh3PxbllhHs
+https://www.youtube.com/watch?v=xChxG8duZ_Q
+https://www.youtube.com/watch?v=G78cTmgeUxI
+https://www.youtube.com/watch?v=WUh3Xuw5YeQ
+https://www.youtube.com/watch?v=ysSFXxLzhpM&list=PLSiFUSQSRYAOk4n3wZf7fbItHOAwzA6pS
+https://www.youtube.com/watch?v=VKIv_Bkp4pk
+https://www.youtube.com/watch?v=FnGCDLhaxKU&list=PLGvfHSgImk4YrUBPDUVczCg6LF8JEGJXN
+https://www.youtube.com/watch?v=9e38ORrkbtc&list=PLzLzYGEbdY5nKCfUgfk8tCO9veao_P1fV
+https://www.youtube.com/user/Bisqwit/videos
+https://www.youtube.com/watch?v=csS_nrzBwos
+https://www.youtube.com/watch?v=9tSuJzwe9Ok&list=PLP7hn9TNf1CEl8A8jQfZSRYcgUIqBhIJU
+https://www.youtube.com/watch?v=Eythq9848Fg&list=PLZQftyCk7_SdoVexSmwy_tBgs7P0b97yD
+https://www.youtube.com/user/ajbalaam/playlists
+https://www.youtube.com/watch?v=TG0qRDrUPpA&list=PLgyU3jNA6VjT3FW83eHqryNcqd6fsvdrv
+https://www.youtube.com/watch?v=_r8N0lmFUWo&list=PLsxCDLkMDfli0sfJviCLSFrzwh0mTX19F
+https://www.youtube.com/user/pervognsen/playlists
+https://www.youtube.com/watch?v=TH9VCN6UkyQ
+https://www.youtube.com/watch?v=p3q5zWCw8J4
+https://www.youtube.com/watch?v=l2wZf45ZcAg
+https://www.youtube.com/watch?v=LCslqgM48D4
+https://www.youtube.com/watch?v=xRtzfdZoJ08&list=PLAF3anQEEkzRuJ7UW82CmSEtT6g-J4Q_p
+https://www.youtube.com/watch?v=pWAxiKdJF0c&list=PLBOh8f9FoHHiKx3ZCPxOZWUtZswrj2zI0
+https://www.youtube.com/watch?v=tSwITbXRe8M&list=PLBOh8f9FoHHgPEbiK-FSdSw3FiyP78fbk
+https://www.youtube.com/watch?v=qIfVQ7A8KeY
+https://www.youtube.com/watch?v=tpIctyqH29Q&list=PL8dPuuaLjXtNlUrzyH5r6jN9ulIgZBpdo
+https://www.youtube.com/user/nesoacademy/playlists
+https://en.wikipedia.org/wiki/Buffer_overflow
+https://www.countercept.com/blog/memory-injection-like-a-boss/
+https://nobe4.fr/shellcode-for-by-newbie/
+https://gist.github.com/jsanders/6505601
+http://www.dmi.unipg.it/bista/didattica/sicurezza-pg/buffer-overrun/hacking-book/0x2a0-writing_shellcode.html
+https://www.cybrary.it/0p3n/advanced-exe-multi-protection-reverse-engineering-free-tools/
+https://www.youtube.com/watch?v=m8tI8v40Eqg
+https://www.youtube.com/watch?v=fMgg6DfeDJA
+https://www.youtube.com/watch?v=qnKX1y7HAyE
+https://www.youtube.com/watch?v=dAT26qjPqwU
+https://www.youtube.com/watch?v=T_3zaOJnTIU
+https://www.youtube.com/watch?v=GkxsYFQj0QM
+https://www.devdungeon.com/content/working-binary-data-python
+https://www.youtube.com/watch?v=le0Bo3K-bks
+https://www.youtube.com/watch?v=__u_fJ91mLM
+https://www.youtube.com/watch?v=9SM4IvBFxK8
+https://www.youtube.com/watch?v=P8Ul2K7pEfU
+https://www.youtube.com/watch?v=5xdaLy9gtIY
+https://www.youtube.com/watch?v=S06pgk4DjFQ
+https://www.youtube.com/watch?v=gI0nZR4z7_M
+https://www.youtube.com/watch?v=At_T6riSb9A
+https://www.youtube.com/watch?v=aCWI61QX1OU
+https://www.youtube.com/watch?v=qtoS3CG6ht0
+https://www.youtube.com/watch?v=Ml8bfFs_Tp8
+https://www.youtube.com/watch?v=sk1wAGeM9Hw
+https://www.youtube.com/watch?v=UXEfmTE-6QI
+https://www.youtube.com/watch?v=Sv8yu12y5zM
+https://www.youtube.com/watch?v=Pst-4NwY2is
+https://www.youtube.com/watch?v=OjaAToVkoTw
+https://github.com/dart-lang/sdk/issues/34343
+https://hackernoon.com/why-flutter-uses-dart-dd635a054ebf
+https://stackoverflow.com/questions/17601984/dart-vs-javascript-are-they-compiled-or-interpreted-languages
+https://stackoverflow.com/questions/43854647/flutter-how-does-it-work-behind-the-scenes
+https://medium.com/dartlang/dart-on-llvm-b82e83f99a70
+https://proandroiddev.com/flutters-compilation-patterns-24e139d14177
+https://groups.google.com/a/dartlang.org/forum/#!topic/misc/1cV_PAXQPPQ
+https://jaxenter.com/dart-vm-explained-154096.html
+https://blog.rapid7.com/2014/02/14/shellcode-golf/
+https://wiki.osdev.org/X86-64_Instruction_Encoding
+https://malwology.com/category/pe-structure/
+https://binvoke.com/introduction-to-pe-file-format-and-a-simple-code-example/
+https://blog.kowalczyk.info/articles/pefileformat.html
+https://samypesse.gitbook.io/how-to-create-an-operating-system/
+https://puppylinux.org/wikka/BashCommands
+https://unix.stackexchange.com/questions/6409/how-does-linux-kernel-compare-to-microkernel-architectures
+https://youtube.com/watch?v=CQ7VrJ9BCnw
+https://pypi.org/project/nodeenv/
+https://github.com/topics/antivirus => complete woarch_py27.py
+https://github.com/develbranch/TinyAntivirus
+https://github.com/VISWESWARAN1998/CyberGod-KSGMPRH
+https://github.com/hanul93/kicomav
+https://github.com/armadito/armadito-av
+https://github.com/clamwin
+https://github.com/Nulleks/AntivirusCSharp
+https://github.com/owncloud/files_antivirus
+https://github.com/armadito
+https://www.exploit-db.com/
+http://nullsecurity.net/
+https://github.com/cea-sec/miasm
+https://webassembly.org
+https://blog.sourcerer.io/writing-a-simple-linux-kernel-module-d9dc3762c234
+https://www.youtube.com/watch?v=BNXP0w4Ppto&list=PLSiFUSQSRYAOFwfP-aMzXJlWKVyIuWfPU&index=4
+https://www.fuzzysecurity.com/tutorials/7.html
+https://github.com/BreakingMalwareResearch
+https://github.com/topics/malware-detection
+https://github.com/endgameinc
+https://docs.python.org/3/library/ctypes.html
+https://justinmeiners.github.io/lc3-vm/
+https://thehackernews.com/2018/08/how-to-hack-wifi-password.html
+https://github.com/trustedsec/meterssh
+https://en.wikipedia.org/wiki/ARM_architecture
+http://www.pythonexample.com/search/werkzeug-debug-exploit/483
+https://www.csoonline.com/article/3253247/security/3-leaked-nsa-exploits-work-on-all-windows-versions-since-windows-2000.html
+https://www.youtube.com/watch?v=5U__sbjazPc
+https://thehackernews.com/2018/09/hack-telegram-messenger.html
+http://www.fuzzysecurity.com/tutorials/expDev/7.html | https://zolmeister.com/2013/05/rop-return-oriented-programming-basics.html
+https://github.com/inaz2/roputils | https://checkoway.net/teaching/cs491/2016-fall/project2.html | https://ocw.cs.pub.ro/courses/cns/labs/lab-10
+https://softwareengineering.stackexchange.com/questions/244354/why-do-vms-need-to-be-stack-machines-or-register-machines-etc
+https://thehackernews.com/2018/09/apple-server-hack.html
+https://thehackernews.com/2018/09/ios12-iphone-jailbreak-exploit.html
+https://thehackernews.com/2018/09/uefi-rootkit-malware.html
+https://thehackernews.com/2018/09/bitcoin-core-software.html
+https://thehackernews.com/2018/09/vpnfilter-router-hacking.html
+https://thehackernews.com/2018/09/apple-macos-mojave-exploit.html
+https://thehackernews.com/2018/09/linux-kernel-vulnerability.html
+https://www.securitysift.com/windows-exploit-development-part-1-basics/
+https://thehackernews.com/2018/09/mirai-botnet-fbi-cybercrime.html
+https://thehackernews.com/2018/09/ransomware-coinmining-botnet.html
+https://thehackernews.com/2018/09/windows-zero-day-vulnerability.html
+https://thehackernews.com/2018/09/iphone-crash-exploit.html <--> https://gist.github.com/pwnsdx/ce64de2760996a6c432f06d612e33aea
+https://thehackernews.com/2018/09/cold-boot-attack-encryption.html
+https://thehackernews.com/2018/09/microsoft-software-updates.html
+https://sploitfun.wordpress.com/2015/06/26/linux-x86-exploit-development-tutorial-series/
+https://sploitfun.wordpress.com/2015/03/04/heap-overflow-using-malloc-maleficarum/
+https://sploitfun.wordpress.com/2015/05/08/classic-stack-based-buffer-overflow/
+https://thehackernews.com/2018/09/cisco-patch-updates.html
+https://thehackernews.com/2018/09/mikrotik-router-hacking.html
+https://github.com/theevilbit/injection | https://www.youtube.com/watch?v=H0FEr_-udj8 | https://github.com/sdoloris/earlybird
+https://github.com/seekintoo/Chimay-Red | https://resources.infosecinstitute.com/code-injection-techniques/ | http://www.securitynewspaper.com/2018/04/17/new-early-bird-code-injection-technique/
+https://github.com/JonathanSalwan/ROPgadget | https://pypi.org/project/pefile/ | https://github.com/uZetta27/EasyROP
+http://codearcana.com/posts/2013/05/28/introduction-to-return-oriented-programming-rop.html
+http://docs.pwntools.com/en/stable/rop/rop.html
+https://doublepulsar.com/task-scheduler-alpc-exploit-high-level-analysis-ff08cda6ad4f
+https://docs.microsoft.com/en-us/windows/desktop/dataxchg/about-atom-tables
+https://cybellum.com/doubleagentzero-day-code-injection-and-persistence-technique/ 
+https://github.com/Cybellum/DoubleAgent
+https://www.owasp.org/index.php/Injection_Prevention_Cheat_Sheet
+https://github.com/BreakingMalwareResearch/atom-bombing
+https://thehackernews.com/2016/10/code-injection-attack.html
+https://securityzap.com/process-doppelganging/
+https://blog.ensilo.com/atombombing-a-code-injection-that-bypasses-current-security-solutions
+https://musalbas.com/2016/08/16/equation-group-firewall-operations-catalogue.html
+https://heimdalsecurity.com/blog/rootkit/
+https://www.welivesecurity.com/2017/10/19/malware-firmware-exploit-sense-security/
+https://security.stackexchange.com/questions/85612/how-does-dumpper-program-get-default-wps-without-bruteforcing-them
+https://thehackernews.com/2018/08/android-malware-spyware.html
+https://thehackernews.com/2018/08/apache-struts-vulnerability.html
+https://thehackernews.com/2018/08/ghostscript-postscript-vulnerability.html
+https://security.stackexchange.com/questions/176096/how-does-shellcode-really-run
+https://thehackernews.com/2018/08/apple-hack-servers.html
+https://www.internetdownloadmanager.com/register/new_faq/problems9.html
+https://thehackernews.com/2018/08/foreshadow-intel-processor-vulnerability.html
+https://github.com/HaxeFoundation/hashlink
+https://thehackernews.com/2018/08/hack-printer-fax-machine.html
+https://thehackernews.com/2018/08/microsoft-patch-updates.html => write exploits for windows flaws and bugs then sell them to make money
+https://thehackernews.com/2018/08/man-in-the-disk-android-hack.html
+https://blog.avast.com/android-devices-ship-with-pre-installed-malware
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4124248/
+http://pyvideo.org/video/389/pycon-2011--reverse-engineering-ian-bicking--39-s => just reverse engineering virtualenv to build urs(also use woarch_py27.py)
+https://thehackernews.com/2018/08/mikrotik-router-hacking.html
+https://thehackernews.com/2018/03/slingshot-router-hacking.html
+https://github.com/netbiosX/Digital-Signature-Hijack
+https://github.com/0ki/mikrotik-tools
+https://github.com/BasuCert/WinboxPoC
+https://github.com/mrmtwoj/0day-mikrotik
+https://n0p.me/winbox-bug-dissection/
+https://github.com/BigNerd95/Chimay-Red
+https://github.com/nightblade9/dragon
+https://azeria-labs.com/emulate-raspberry-pi-with-qemu/
+https://www.exploit-db.com/shellcode/ | https://www.exploit-db.com/exploits/39979/
+https://azeria-labs.com/writing-arm-shellcode/
+https://stackoverflow.com/questions/26075825/understanding-of-a-shellcode-example
+http://www.primalsecurity.net/0x0-shellcoding-tutorial-introduction-to-asm/
+https://www.linkedin.com/pulse/how-write-windows-shellcode-beginners-abdel-harbi
+https://www.youtube.com/watch?v=JuygPoTr4X8
+https://www.youtube.com/watch?v=iLNHVwSu9EA
+https://en.wikipedia.org/wiki/Executable_space_protection
+https://github.com/FabioBaroni/awesome-exploit-development
+https://www.codeproject.com/Articles/794764/Creating-A-Basic-Make-File-for-Compiling-C-Code 
+https://www.upwork.com/hiring/development/the-basics-of-compiled-languages-interpreted-languages-and-just-in-time-compilers/
+https://www.quora.com/Why-cant-computer-languages-like-C-or-C++-have-virtual-machines-like-Java
+https://pypi.org/project/convert2php/ | https://github.com/taichino/php2py | https://cmake.org/overview/
+https://github.com/haxefoundation/haxe | haxe.org | https://nekovm.org
+https://www.exploit-db.com/exploits/44695/
+https://thehackernews.com/2018/05/microsoft-patch-tuesday.html
+https://thehackernews.com/2016/10/root-android-phone-exploit.html
+https://thehackernews.com/2018/05/rowhammer-attack-exploit.html
+https://thehackernews.com/2018/05/fourth-critical-spectre-cpu-flaw.html => write exploits for every flaws in memory and cpu
+https://thehackernews.com/2018/07/netspectre-remote-spectre-attack.html => trick the CPU into revealing sensitive information, like passwords and encryption keys, stored in system memory and the kernel
+https://www.apriorit.com/dev-blog/366-software-reverse-engineering-tools#s11
+https://github.com/jterrace/js.js
+https://stackoverflow.com/questions/32360096/how-does-assembly-asm-js-work-in-the-browser/32360097
+https://softwareengineering.stackexchange.com/questions/246094/understanding-the-differences-traditional-interpreter-jit-compiler-jit-interp
+https://www.i-programmer.info/babbages-bag/352-interpreters.html
+https://numba.pydata.org/numba-doc/dev/user/jit.html
+https://stackoverflow.com/questions/13034991/does-the-python-3-interpreter-have-a-jit-feature
+https://blogs.dropbox.com/tech/2014/04/introducing-pyston-an-upcoming-jit-based-python-implementation/
+https://softwareengineering.stackexchange.com/questions/347908/why-hasnt-python-been-optimized-like-modern-javascript-implementations
+https://www.whizlabs.com/blog/what-is-just-in-time-compiler-difference-between-compiler-and-interpreter/
+https://csl.name/post/python-compiler/
+http://www.java67.com/2013/02/difference-between-jit-and-jvm-in-java.html
+http://rpython.readthedocs.io/en/latest/jit/overview.html | https://pypy.org | https://github.com/Microsoft/Pyjion | https://news.ycombinator.com/item?id=15665581
+https://stackoverflow.com/questions/18247888/how-can-a-c-compiler-be-written-in-c
+https://en.wikipedia.org/wiki/Bootstrapping_%28compilers%29
+https://stackoverflow.com/questions/9451929/base-language-of-python
+https://hackernoon.com/lets-build-a-programming-language-2612349105c6
+https://tomassetti.me/resources-create-programming-languages/
+https://blog.usejournal.com/writing-your-own-programming-language-and-compiler-with-python-a468970ae6df
+http://cython.readthedocs.io/en/latest/src/tutorial/cython_tutorial.html
+https://softwareengineering.stackexchange.com/questions/165543/how-to-write-a-very-basic-compiler
+https://www.wikihow.com/Create-a-Programming-Language
+https://stackoverflow.com/questions/193560/writing-a-compiler-in-its-own-language
+https://stackoverflow.com/questions/15626611/can-regular-javascript-be-converted-to-asm-js-or-is-it-only-to-speed-up-statica
+https://stackoverflow.com/questions/7674839/is-the-jvm-a-compiler-or-an-interpreter
+https://www.quora.com/What-is-the-difference-between-compiler-and-the-JVM
+https://www.quora.com/What-is-the-difference-between-a-JVM-and-JIT-compiler-just-in-time-compiler-in-Java
+https://github.com/numba/llvmlite | http://www.llvmpy.org | https://llvmlite.readthedocs.io/en/latest/ | https://www.slideshare.net/mdevan/llvmpy-w | youtube.com/user/ColourEntertainUK/playlists
+https://www.youtube.com/watch?v=DUNkdl0Jhgs&list=PLF21LcZZTG52SvqiMFvstG-j-maXTRECl
+https://www.youtube.com/watch?v=OjaAToVkoTw
+https://www.youtube.com/watch?v=5iQkR69H_1M
+https://www.youtube.com/watch?v=ptjedOZEXPM
+https://www.youtube.com/user/lefticus1/playlists
+https://www.youtube.com/watch?v=kXbMCKMJXXQ
+https://www.youtube.com/watch?v=Mv2XQgpbTNE
+https://www.youtube.com/watch?v=BNXP0w4Ppto&list=PLSiFUSQSRYAOFwfP-aMzXJlWKVyIuWfPU&index=4 => building VM
+https://www.youtube.com/watch?v=75gBFiFtAb8
+https://www.jayconrod.com/posts/37/a-simple-interpreter-from-scratch-in-python-part-1
+https://norasandler.com/2017/11/29/Write-a-Compiler.html
+https://medium.freecodecamp.org/the-programming-language-pipeline-91d3f449c919
+https://stackoverflow.com/questions/24462681/how-to-get-python-to-use-assembly | https://legacy.python.org/workshops/1998-11/proceedings/papers/aycock-211/aycock211.html | https://www.ics.uci.edu/~brgallar/week9_3.html | https://csl.name/post/vm/
+https://stackoverflow.com/questions/3373817/building-a-compiler-or-interpreter-using-python
+https://ruslanspivak.com/lsbasi-part1/ | https://github.com/ShivamSarodia/ShivyC | http://www.aosabook.org/en/500L/a-python-interpreter-written-in-python.html
+https://softwareengineering.stackexchange.com/questions/118586/how-does-a-compiler-work
+https://stackoverflow.com/questions/14678060/interpreters-vs-compilers-vs-virtual-machines
+https://hhvm.com/blog/10205/llvm-code-generation-in-hhvm
+http://releases.llvm.org/2.6/docs/tutorial/JITTutorial1.html
+https://llvm.org/docs/GettingStartedVS.html
+https://stackoverflow.com/questions/2354725/what-exactly-is-llvm
+https://softwareengineering.stackexchange.com/questions/24558/is-python-interpreted-or-compiled
+https://www.youtube.com/watch?v=L6Gz1hJZECg
+https://github.com/parrt/simple-virtual-machine
+https://github.com/leaningtech/cheerp-meta/wiki/Cheerp-Tutorial
+https://github.com/QQuick/Transcrypt
+https://github.com/mnjrupp/simple-vm-cpp
+https://github.com/cslarsen/stack-machine
+https://en.wikibooks.org/wiki/Creating_a_Virtual_Machine/Introduction
+https://felixangell.com/blog/implementing-a-virtual-machine-in-c/
+https://www.codeproject.com/Articles/43176/How-to-create-your-own-virtual-machine
+https://www.youtube.com/channel/UChEygfZo7SZ64E0mp038Jvg/playlists
+https://github.com/andrei-markeev/ts2c | https://github.com/kripken/emscripten | http://kripken.github.io/mloc_emscripten_talk/llvm | http://kripken.github.io/mloc_emscripten_talk/ | https://github.com/eliben/pykaleidoscope | https://github.com/dropbox/pyston | http://dev.stephendiehl.com/numpile/
+https://www.youtube.com/watch?v=LSgk7ctw1HY | https://llvm.org/docs/GettingStarted.html | http://numba.pydata.org/numba/
+https://github.com/llvm-mirror/llvm | https://en.wikipedia.org/wiki/LLVM
+https://www.youtube.com/user/CreatiiveCode/playlists => compiler for ~WORAT to bypass AVs with bytecode[shellcode like java bytecode] using python
+https://en.wikipedia.org/wiki/Common_Language_Runtime
+http://llvm.org | https://medium.com/@vishhvak/compiling-a-custom-linux-kernel-on-a-virtual-machine-12be9d32189b
+https://softwareengineering.stackexchange.com/questions/145091/why-are-virtual-machines-required
+https://en.wikipedia.org/wiki/Compiler
+https://medium.com/@joelgarciajr84/do-you-know-what-is-hhvm-f0e92dbb0798
+https://coderoncode.com/hhvm/programming/development/vagrant/2013/07/24/introduction-hhvm.html
+https://en.wikipedia.org/wiki/Bytecode
+https://en.wikipedia.org/wiki/Interpreter_(computing)
+https://www.youtube.com/watch?v=wJ1L2nSIV1s
+https://www.youtube.com/watch?v=u4N0kHwesz4
+https://researchcenter.paloaltonetworks.com/2016/07/unit42-investigating-the-luminositylink-remote-access-trojan-configuration/ | https://docs.python.org/2/library/struct.html | https://chortle.ccsu.edu/AssemblyTutorial/Chapter-15/ass15_3.html
+https://www.google.fr/amp/s/arstechnica.com/inforamtion-technology/2015/08/how-security-flaws-work-the-buffer-overflow/%3famp=1
+https://www.youtube.com/watch?v=PwD2275l-aM | https://www.linkedin.com/pulse/how-inject-your-own-shellcode-manually-pe-file-saleh-alhaqbani | https://github.com/secrary/InfectPE/tree/master/InfectPE | https://www.youtube.com/watch?v=mKkR4mI4L0U
+https://dhavalkapil.com/blogs/Shellcode-Injection/ | https://dhavalkapil.com/blogs/Buffer-Overflow-Exploit/ | https://resources.infosecinstitute.com/injecting-spyware-exe-code-injections/
+https://www.nayuki.io/page/a-fundamental-introduction-to-x86-assembly-programming | https://www.engr.mun.ca/~anderson/teaching/8894/reference/x86-assembly/ | https://www.quora.com/Can-I-run-x86-code-written-in-assembly-under-Windows-10
+https://www.corelan.be/index.php/category/security/exploit-writing-tutorials/ | https://www.corelan.be/index.php/2010/02/25/exploit-writing-tutorial-part-9-introduction-to-win32-shellcoding/
+https://securityzap.com/atombombing-injection-affecting-windows/ | https://www.codeproject.com/Articles/4610/Three-Ways-to-Inject-Your-Code-into-Another-Proces | https://www.youtube.com/watch?v=mKkR4mI4L0U
+https://stackoverflow.com/questions/1739349/understanding-and-doing-code-injection-in-c | https://github.com/secrary/InjectProc
+https://security.stackexchange.com/questions/168327/difference-between-code-injection-command-injection-and-remote-code-execution
+http://www.rohitab.com/discuss/topic/39535-code-injections-beginner-and-advanced/ | http://www.cplusplus.com/forum/windows/119039/
+https://www.howtogeek.com/278056/what-is-aslr-and-how-does-it-keep-your-computer-secure/ | https://securityxploded.com/bypassing-antivirus-using-code-injection.php
+https://www.codeproject.com/Articles/20240/The-Beginners-Guide-to-Codecaves | https://www.shellblade.net/code-cave-windows.html => dll injection using codecave
+https://www.youtube.com/watch?v=vIAKnyCikiQ | https://www.youtube.com/watch?v=0NwlWaT9NEY | https://www.youtube.com/watch?v=ZJEDphDdu7M | https://en.wikipedia.org/wiki/Code_cave
+http://theconversation.com/buffer-overflows-are-the-ghosts-that-will-always-be-among-us-37067 | https://github.com/xan7r/cypher
+http://www.fuzzysecurity.com/tutorials/expDev/8.html | http://www.fuzzysecurity.com/tutorials.html | http://www.fuzzysecurity.com/exploits.html
+https://www.geeksforgeeks.org/buffer-overflow-attack-with-example/
+https://alitarhini.wordpress.com/2012/01/23/exploit-the-buffer-buffer-overflow-attack/
+https://ocw.cs.pub.ro/courses/cns/labs/lab-03
+https://haiderm.com/fully-undetectable-backdooring-pe-file/
+https://github.com/joxeankoret/pyew | https://0day.today/exploit/23166 | https://0day.today/exploit/9726
+https://securityxploded.com/memory-execution-of-executable.php
+http://seclist.us/foolavc-bypass-av-to-execute-dll-executable-or-shellcode.html
+https://www.commandlinefu.com/commands/view/6051/get-all-shellcode-on-binary-file-from-objdump
+https://stackoverflow.com/questions/22119533/how-can-convert-assembly-with-extern-function-to-shellcode-in-osx-64-intel
+https://en.wikipedia.org/wiki/Return-oriented_programming
+http://mcdermottcybersecurity.com/articles/windows-x64-shellcode
+https://idafchev.github.io/exploit/2017/09/26/writing_windows_shellcode.html
+https://www.youtube.com/watch?v=WOhBRbfi-Is
+https://www.youtube.com/watch?v=5N42JPdBmts
+https://www.youtube.com/watch?v=1lUWxfTfEWc
+https://www.youtube.com/watch?v=HSlhY4Uy8SA&list=PL8vnaGxuVS9bJ8CRtJ0LQbzh6bpMyBhZF
+https://github.com/n1nj4sec/pymemimporter
+https://www.youtube.com/watch?v=K0g-twyhmQ4&list=PLue5IPmkmZ-P1pDbF3vSQtuNquX0SZHpB
+https://www.offensive-security.com/metasploit-unleashed/msfvenom/
+http://shell-storm.org/shellcode/
+https://rstforums.com/forum/topic/93160-shellcode-win-x86-64-download-execute-generator/
+https://packetstormsecurity.com/files/137891/Windows-x86-Download-Execute-Shellcode.html
+https://www.trustedsec.com/2014/02/python-remote-code-execution-socket-recvfrom_into/
+https://yazadk.wordpress.com/2014/12/10/remotely-exploitable-buffer-overflow-in-python/
+https://www.trustedsec.com/2013/05/native-powershell-x86-shellcode-injection-on-64-bit-platforms/
+http://codezen.fr/tag/shellcode-exploit-overflow/
+https://github.com/dpl0/phrack
+https://github.com/BorjaMerino/Windows-Reuse-Shellcode-lifetime
+https://blog.stalkr.net/2011/04/pctf-2011-22-hashcalc1.html
+https://resources.infosecinstitute.com/stack-based-buffer-overflow-tutorial-part-3-—-adding-shellcode/
+https://medium.com/@habibiefaried/slae-0x4-combined-method-for-encoding-shellcode-x86-2f8637d87ed9
+https://github.com/packz/shellcodes/tree/master/socket-reuse
+https://stackoverflow.com/questions/48936344/remove-null-byte-assembly-shellcode
+https://0x00sec.org/t/remote-exploit-shellcode-without-sockets/1440
+https://www.whitehatters.academy/assembly-language-and-shellcoding-on-linux-part-3/
+http://disbauxes.upc.es/code/two-basic-ways-to-run-and-test-shellcode/
+https://stackoverflow.com/questions/44893457/python-3-tcp-socket-connection-unicode
+https://d3fa1t.ninja/2017/09/17/linux-x86-one-way-shellcode-socket-reuse/
+https://www.geeksforgeeks.org/struct-module-python/
+http://www.phrack.org/archives/issues/62/7.txt
+https://nets.ec/Shellcode/Socket-reuse
+https://securityweekly.com/2011/10/23/python-one-line-shell-code/
+https://www.programcreek.com/python/example/129/struct.pack
+http://www.securiteam.com/securityreviews/5OP0B006UQ.html
+https://reverseengineering.stackexchange.com/questions/15798/a-buffer-overflow-exercise-using-a-shellcode
+https://samsclass.info/127/proj/p4-lbuf-shell.htm
+http://www.codeproject.com/Articles/12532/Inject-your-code-to-a-Portable-Executable-file
+https://msdn.microsoft.com/en-us/library/ms809762.aspx
+https://www.endgame.com/blog/technical-blog/ten-process-injection-techniques-technical-survey-common-and-trending-process
+https://www.codeproject.com/Articles/325776/The-Art-of-Win-Shellcoding
+https://www.codeproject.com/Articles/13897/Load-an-EXE-File-and-Run-It-from-Memory
+https://www.bleepingcomputer.com/news/security/early-bird-code-injection-technique-helps-malware-stay-undetected/
+https://pentest.blog/art-of-anti-detection-1-introduction-to-av-detection-techniques/
+https://pentest.blog/art-of-anti-detection-2-pe-backdoor-manufacturing/
+https://github.com/codecrack3/Run-PE---Run-Portable-Executable-From-Memory/blob/master/RunPE.cpp
+https://wiremask.eu/articles/download-execute-assembly-x86/
+https://thehackernews.com/2018/04/early-bird-code-injection.html
+https://www.youtube.com/watch?v=_sI76NLPMjI
+https://www.youtube.com/watch?v=-DhC6sDi1GQ
+http://www.wryway.com/blog/creating-tcp-reverse-shell-shellcode/
+https://www.fireeye.com/current-threats/apt-groups.html
+https://www.youtube.com/watch?v=RQh8j5QFRa0
+https://cranklin.wordpress.com/2016/12/26/how-to-create-a-virus-using-the-assembly-language/
+https://lifehacker.com/5736101/how-to-crack-just-about-any-mac-app-and-how-to-prevent-it
+https://www.youtube.com/watch?v=iyAyN3GFM7A&list=PLhixgUqwRTjxglIswKp9mpkfPNfHkzyeN
+https://www.quora.com/How-do-I-get-assembly-code-from-a-exe-file
+https://stackoverflow.com/questions/25359566/how-to-create-at-runtime-a-net-exe-file-assembly-from-already-compiled-classes
+https://security.stackexchange.com/questions/24563/better-way-to-import-win32-apis-from-injected-shellcode
+https://gist.github.com/netbiosX/5f19a3e8762b6e3fd25782d8c37b1663
+https://blog.didierstevens.com/programs/shellcode/otNET-Shellcode
+https://thehackernews.com/2017/03/dridex-atombombing-malware.html
+https://packetstormsecurity.com/files/137448/Windows-Download-And-Execute-Shellcode.html
+https://github.com/dvx/jssembly
+https://www.youtube.com/user/TheSecurityTube/videos
+https://github.com/Shinao/Malicious
+https://research.checkpoint.com/dorkbot-an-investigation/
+https://stackoverflow.com/questions/38161809/generating-shellcode-from-an-exe
+https://github.com/hatRiot/shellme
+http://www.vividmachines.com/shellcode/shellcode.html
+http://www.linfo.org/int_0x80.html
+https://www.joachim-bauch.de/tutorials/loading-a-dll-from-memory/
+http://e-spohn.com/blog/2012/08/02/pe-crypters-hyperion/
+http://nullsecurity.net
+https://www.youtube.com/watch?v=KaWvWaF-8gQ
+https://resources.infosecinstitute.com/x86-assembly-language-part-1/ref
+https://www.youtube.com/watch?v=K0g-twyhmQ4&list=PL6brsSrstzga43kcZRn6nbSi_GeXoZQhR
+https://www.youtube.com/watch?v=PouDL65qU2g&list=PL0DAC43CDE5EF7694
+https://www.youtube.com/watch?v=1_rXO2Es5B8
+https://www.youtube.com/watch?v=yGjDZgJajU4
+https://www.youtube.com/watch?v=jbieGfML0Bs
+https://www.youtube.com/watch?v=tBY46vs0ptE
+https://www.youtube.com/watch?v=vb18UVF4a_o&list=PLQgy5xfkFQv2FyKPwYHkgy25yCyy7JGWG
+https://www.youtube.com/user/HackVise/playlists
+https://www.youtube.com/watch?v=wq6fk5oDbVg&list=PLRoC172tgXWqcQSEUm3wEUEQ8ICLJuh5x
+https://www.youtube.com/watch?v=2Gfmw_6sYz4&list=PLRoC172tgXWq1MJCW6j7SyJVzrRYhOIXU
+https://www.youtube.com/watch?v=3d5Ler_8cHg
+https://www.youtube.com/watch?v=wq6fk5oDbVg
+https://www.theregister.co.uk/2005/07/01/reverse_engineering_patches/
+https://www.networkworld.com/article/2180454/software/hackers-could-reverse-engineer-microsoft-patches-to-create-dos-attacks.html
+https://searchmidmarketsecurity.techtarget.com/news/1363807/Tool-defeats-binary-diffing-automated-reverse-engineering-of-Windows-security-patches
+https://null-byte.wonderhowto.com/how-to/binary-patching-brute-force-reverse-engineering-with-ida-and-hopper-and-hex-editor-0157194/
+https://www.schneier.com/blog/archives/2008/04/reverseengineer.html
+https://reverseengineering.stackexchange.com/questions/8178/ollydbg-managed-to-patch-file-now-can-i-automate-this
+http://www.rikfarrow.com/Network/net0104.html
+https://www.youtube.com/watch?v=ctP910qdHhA
+pentestlab.blog/2017/11/06/hijacking-digital-signatures/
+https://www.youtube.com/watch?v=yG4wj_0iVkQ
+https://www.youtube.com/watch?v=k5VXx6SGsbo
+https://www.youtube.com/watch?v=wxmxxgL6Nz8
+https://www.sdkhere.com/2017/07/reversing-of-python-built-exe.html
+https://stackoverflow.com/questions/2982780/what-is-a-strong-name-in-net
+https://www.youtube.com/watch?v=0DV1bhnnOyM
+https://www.youtube.com/watch?v=OU0Ar2LeSgU
+http://realwebgeeks.com/2012/09/simple-steps-to-make-your-own-antivirus.html
+https://www.codeproject.com/Questions/190853/How-to-create-an-antivirus-in-C
+https://www.youtube.com/watch?v=NGhQxLIKlp0
+https://thehackernews.com/2018/12/linux-user-privilege-policykit.html
+https://www.youtube.com/watch?v=hE3JgDcDPo8
+https://github.com/odonckers/Snake-Antivirus
+https://www.youtube.com/watch?v=iLNHVwSu9EA
+https://null-byte.wonderhowto.com/forum/is-there-today-real-way-bypassing-av-0177883/
+https://stackoverflow.com/questions/14580363/how-to-protect-net-executable-from-de4dot-or-similar-tools
+https://theproxyre.wordpress.com/2015/05/14/adding-obfuscator-to-de4dot/
+http://deniable.org/reversing/cracking-orcus-rat
+https://lordcodercracking.wordpress.com/2013/01/13/using-de4dot/
+https://lifeinhex.com/string-decryption-with-de4dot/
+https://en.wikipedia.org/wiki/Data_compression
+https://en.m.wikipedia.org/wiki/Portable_Executable
+https://www.youtube.com/watch?v=s58tqRiJqaw
+https://stackoverflow.com/questions/2268515/merge-two-exe-files-into-one-programmatically
+https://www.aldeid.com/wiki/De4dot
+https://github.com/topics/code-injection
+https://github.com/marcosd4h/memhunter
+https://github.com/0xd4d/de4dot => crack and make a patch for those apps which has license using this tools like Orcus cracking
+https://reverseengineering.stackexchange.com/questions/16955/bypassing-av-signature-with-hex-editing
+https://null-byte.wonderhowto.com/forum/creating-completely-undetectable-executable-under-15-minutes-0175114/
+https://docs.microsoft.com/en-us/dotnet/framework/tools/signtool-exe
+https://resources.infosecinstitute.com/antivirus-evasion-tools/#gref
+https://www.blackhillsinfosec.com/three-simple-disguises-for-evading-antivirus/
+https://news.ycombinator.com/item?id=11324792
+https://blog.netspi.com/10-evil-user-tricks-for-bypassing-anti-virus/
+https://null-byte.wonderhowto.com/how-to/hack-like-pro-evade-av-software-with-shellter-0168504/
+http://hackyshacky.com/blog/bypass-antivirus-make-fud/
+http://picateshackz.com/how-to-bypass-exe-files-antivirus/
+https://github.com/govolution/avet
+https://securityxploded.com/bypassing-antivirus-using-code-injection.php
+https://www.foregenix.com/blog/penetration-testing-the-quest-for-fully-undetectable-malware => eg: create ur crypter/encoder/shellcode/... for bypassing AV
+https://www.linkedin.com/pulse/bypass-all-anti-viruses-encrypted-payloads-c-damon-mohammadbagher
+https://www.christophertruncer.com/tag/bypass-antivirus/
+http://antihackingtutorials.blogspot.com/2012/06/how-to-bind-two-exe-files-using-windows.html
+https://stackoverflow.com/questions/273145/is-it-possible-to-decompile-a-windows-exe-or-at-least-view-the-assembly
+https://www.youtube.com/watch?v=VIAuPwY4498
+https://www.youtube.com/watch?v=Be13NLWjgt4
+https://www.youtube.com/watch?v=yS-N0rrVV5U
+https://www.youtube.com/watch?v=tESLASgC4fE
+https://stackoverflow.com/questions/1616772/how-exactly-do-executables-work
+https://www.hackingloops.com/fud-crypter-bypass-antivirus-detection-for-rats-and-viruses/
+https://www.youtube.com/watch?v=tPj1ywSy8-E
+https://www.youtube.com/watch?v=_1cEl2IkbR8
+https://www.youtube.com/watch?v=8Cgbf8TM6Sk
+https://thehackernews.com/2018/08/snapchat-hack-source-code.html => source code leaking from big companies then cL34n 3v3RytH!n9 from the server
+svenbit.com/2014/09/run-ngrok-on-your-own-server/
+exploit-db.com/exploits/39979/
+https://medium.com/@AntiSec_Inc/combining-the-power-of-python-and-assembly-a4cf424be01d
+www.sans.org/course/advanced-penetration-testing-exploits-ethical-hacking
+https://www.sans.org/vlive/details/sec660-17oct2017-james-shewmaker
+https://www.youtube.com/watch?v=a2EkORFcSZo
+https://www.youtube.com/watch?v=cATBah30jk0
+https://www.youtube.com/watch?v=3D5FOPOkE5Y
+youtube.com/watch?v=vox6ldTSwrs
+https://www.youtube.com/watch?v=KKQ-tkJXfHE
+https://www.youtube.com/watch?v=NhqAeQB_CZU
+https://www.youtube.com/watch?v=Wuy_Pm3KaV8
+youtube.com/watch?v=hY6pthfoNjw
+https://www.youtube.com/watch?v=D3Scz0RGxHE
+https://www.youtube.com/watch?v=LAkYW5ixvhg
+https://www.youtube.com/watch?v=ViNnfoE56V8
+https://null-byte.wonderhowto.com/how-to/attack-on-stack/
+https://null-byte.wonderhowto.com/how-to/reverse-engineering-with-radare2-a-quick-introduction-0165996/
+https://wiki.skullsecurity.org/index.php?title=Cracking_a_Game
+https://www.youtube.com/results?search_query=keygen+creation+in+kali
+https://www.andreafortuna.org/2018/08/06/code-injection-on-windows-using-python-a-simple-example/
+https://warroom.rsmus.com/injecting-python-code-into-native-processes/
+https://www.christophertruncer.com/injecting-shellcode-into-a-remote-process-with-python/
+https://blog.ensilo.com/atombombing-brand-new-code-injection-for-windows
+https://github.com/rocky/python-uncompyle6
+https://github.com/n3k/PyInjector
+https://github.com/mehulj94/Snatch
+https://github.com/priyankgada/python-for-hackers
+https://github.com/mehulj94/Radium
+https://github.com/AlessandroZ/LaZagne 

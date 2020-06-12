@@ -1,0 +1,8 @@
+api/__pycache__
+api/build
+api/*.c
+api/*.html
+api/*.so
+app.build
+*.bin
+cranv
