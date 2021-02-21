@@ -37,6 +37,8 @@ ______________________________________________________
 	REVERSE ENGINEERING LEGACY ::::: https://drive.google.com/drive/folders/11Kjy9lCeFt31OcMi2v0W5xqgtldJG2a-
 
 
+https://www.youtube.com/watch?v=wz9CZBeXR6U
+https://www.youtube.com/watch?v=FkrpUaGThTQ
 https://medium.com/clevyio/using-rust-and-nom-to-create-an-open-source-programming-language-for-chatbots-12fe67582af5
 https://arzg.github.io/lang/
 https://blog.gojekengineering.com/drafting-a-jvm-with-rust-1de3129997c9
@@ -693,5 +695,6 @@ SCENARIOS:
 	 purpose: reverse engineering decryption hash algorithm of quantum computer to create stronger encryption algorithm than others, create your hardwares like hak5 tools, linux kernel
 	 purpose: design a debugger, how to traCK the location using mac address using reverse engineering like NSA system, reverse engineering all lazy source codes, cracking games with assembly
 	 REMEMBER: server's time is the most important thing in hacking(just break the clock!), decompile laZagne script
+
 
 
